@@ -1,0 +1,42 @@
+
+// {
+//     "name": "insert-entry",
+//     "description": "Insert data into a table in a SQLite database using SQL INSERT",
+//     "method": "POST",
+//     "endpoint": "/api/execute",
+//     "params": {
+//       "db_name": "Target database name",
+//       "query": "SQL INSERT query to add data"
+//     }
+//   },
+//   {
+//     "name": "retrieve-data",
+//     "description": "Retrieve data from a database table using SQL SELECT",
+//     "method": "POST",
+//     "endpoint": "/api/execute",
+//     "params": {
+//       "db_name": "Target database name",
+//       "query": "SQL SELECT query to retrieve records"
+//     }
+//   },
+//   {
+//     "name": "create-table",
+//     "description": "Create a new table in a SQLite database using a SQL CREATE TABLE statement",
+//     "method": "POST",
+//     "endpoint": "/api/execute",
+//     "params": {
+//       "db_name": "Target database name",
+//       "query": "SQL CREATE TABLE query"
+//     }
+//   },
+  
+//   {
+//     "name": "delete-entry",
+//     "description": "Delete records from a table using SQL DELETE",
+//     "method": "POST",
+//     "endpoint": "/api/execute",
+//     "params": {
+//       "db_name": "Target database name",
+//       "query": "SQL DELETE query to remove records"
+//     }
+//   },
